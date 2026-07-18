@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-07-18
+
+### Added
+
+- 동영상 편집: 비율 유지 크기 축소 옵션 (원본/75%/50%/25%) — 구간 내보내기·GIF 내보내기에 적용
+- 동영상 편집: 배속 내보내기 옵션 (x1.2/x1.5/x2.0/x3.0) — 오디오 음정 유지(atempo), 30fps 제한으로 용량 절감
+- GIF 미리보기: 이미지 경계 아웃라인 표시 토글 버튼
+
+### Fixed
+
+- 새 폴더·새 문서 생성 시 기본 이름이 언어 설정과 무관하게 한국어로 고정되던 문제 (영어: New Folder / New Document)
+- GIF→MP4 변환, 구간 내보내기/삭제, 이어붙이기가 번들 FFmpeg(LGPL, libx264 미포함)에서 실패하던 문제
+  — OS 인코더(macOS VideoToolbox / Windows Media Foundation) 우선 + libx264·mpeg4 폴백 체인으로 전환
+
 ## [1.0.0] - 2026-07-17
 
 ### Added
