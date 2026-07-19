@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-07-19
+
+### Added
+
+- 8 new display languages: Simplified Chinese, Traditional Chinese, Spanish, French,
+  German, Russian, Portuguese, and Italian
+- Localized display names for macOS system root folders (Users, Applications, Library, System)
+  in all supported languages
+
+### Changed
+
+- OS language detection now prefers the longest matching locale prefix,
+  so Traditional Chinese locales (zh-TW, zh-Hant, zh-HK) resolve correctly
+
 ## [1.0.2] - 2026-07-18
 
 ### Added
