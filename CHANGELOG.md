@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-07-20
+
+### Fixed
+
+- Google Drive folder thumbnails no longer flash and then get stuck on a loading spinner while cloud files are being materialized
+- Grid thumbnails now refresh automatically when a Google Drive file is modified remotely (content signature added to the thumbnail cache key)
+- Thumbnail requests cancelled by folder reloads are now retried instead of leaving a permanent spinner
+
 ## [1.0.4] - 2026-07-19
 
 ### Added
