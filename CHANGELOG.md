@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.6] - 2026-07-21
+
+### Changed
+
+- Update popup release notes link now opens the CHANGELOG instead of the release page (which shows installation instructions)
+
 ## [1.0.5] - 2026-07-20
 
 ### Fixed
